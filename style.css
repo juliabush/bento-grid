@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    /* Fonts */
+    --ff-main: 'DM Sans';
+    --ff-size: 1.25rem;
+    --fw-400: 400;
+    --fw-500: 500;
+
+    /* Colors */
+    --clr-Purple100: hsl(254, 88%, 90%);
+    --clr-Purple500: hsl(256, 67%, 59%);
+
+    --clr-Yellow100: hsl(31, 66%, 93%);
+    --clr-Yellow500: hsl(39, 100%, 71%);
+
+    --clr-White: hsl(0, 0%, 100%);
+    --clr-Black: hsl(0, 0%, 7%);
+}
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body {
+   
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  /* h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  } */
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  html {
+    height: 100%;
+    background-color: rgb(241, 241, 250);
+  }
+  main {
+    font-size: var(--ff-size);
+    font-family: var(--ff-main);
+    line-height: 1;
+  }
+.purple {
+    background-color: var(--clr-Purple500);
+    text-align: center;
+}
+.lavender {
+  background-color: var(--clr-Purple100);
+  padding: 1rem;
+  text-align: center;
+  display: grid;
+}
+.graph {
+  justify-self: center;
+}
+.white {
+    background-color: white;
+}
+.cream {
+  background-color: var(--clr-Yellow100);
+}
+.yellow {
+    background-color: var(--clr-Yellow500);
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: var(--fw-400);
+}
+.purple.card {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+    color: var(--clr-White);
+    display: grid;
+    justify-content: center;
+}
+.purple-1 {
+  background-color: var(--clr-Purple500);
+  padding: 2rem;
+  text-align: center;
+}
+.stars {
+    max-width: 200px;
+    margin-bottom: .5rem;
+    justify-self: center;
+}
+.purple-card__main-description {
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+.purple.card span {
+    color: var(--clr-Yellow500);
+    font-weight: var(--fw-500);
+}
+.card {
+    margin: 1rem;
+    border-radius: .5rem;
+}
+.insta {
+  margin-bottom: .5rem;
+}
+.media {
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: var(--fw-500);
+  letter-spacing: -1px;
+  margin-bottom: 1.5rem;
+}
+.schedule {
+  font-size: 1.4rem;
+  letter-spacing: -1px;
+  font-weight: var(--fw-500);
+  padding-left: 1.15rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  overflow: hidden;
+}
+.yellow.card {
+  margin-bottom: 1.5rem;
+}
+.calendar {
+  /* margin-left: 1rem; */
+  height: 120px;
+  object-fit: contain;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: .7rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+.graph {
+  margin-bottom: 1rem;
+}
+.graph-p {
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: .5rem;
+}
+.chart {
+  display: grid;
+  padding: .5rem;
+}
+.chart-arrow {
+  place-self: center;
+  margin-bottom: .5rem;
+  padding: .7rem;
+}
+.chart-description {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: var(--fw-500);
+  letter-spacing: -1px;
+  padding: .7rem;
+}
+.stat {
+  padding: 1.5rem;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: var(--fw-400);
+}
+.p-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.cream {
+  padding: 1rem;
+}
+.cream em {
+  color: var(--clr-Purple500);
+}
+h4 {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: var(--fw-500);
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+}
+.ai-desc {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: var(--fw-500);
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+}
+.AI {
+  padding: 1rem;
+}
